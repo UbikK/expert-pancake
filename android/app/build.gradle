@@ -1,6 +1,5 @@
 apply plugin: "com.android.application"
 apply plugin: 'com.google.gms.google-services'
-
 import com.android.build.OutputFile
 
 /**
@@ -133,7 +132,10 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     defaultConfig {
         applicationId "com.expertpancake"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -141,7 +143,7 @@ android {
         versionCode 1
         versionName "1.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
-
+        multiDexEnabled true    
         if (isNewArchitectureEnabled()) {
             // We configure the NDK build only if you decide to opt-in for the New Architecture.
             externalNativeBuild {
@@ -270,6 +272,8 @@ dependencies {
     debugImplementation("com.facebook.flipper:flipper-fresco-plugin:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.flipper'
     }
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-analytics'
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";

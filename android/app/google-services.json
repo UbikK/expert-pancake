@@ -40,6 +40,42 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196376175218:android:c512fadfa8983d513ed8eb",
+        "android_client_info": {
+          "package_name": "com.expertpancake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196376175218-qgha44lk933n55gvpao9edhm475nqr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDocykRu_pp6wzN0mTo2tKUrhGCmSJgtuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196376175218-qgha44lk933n55gvpao9edhm475nqr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "196376175218-95f16dduo7kb1b0rnthv42rer31rue5l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.progression-app"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

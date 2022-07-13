@@ -13,6 +13,8 @@
   "dependencies": {
     "@react-native-firebase/app": "^14.7.0",
     "@react-native-firebase/auth": "^14.7.0",
+    "@react-native-firebase/firestore": "^14.7.0",
+    "@react-native-google-signin/google-signin": "^7.2.2",
     "native-base": "^3.3.10",
     "react": "17.0.2",
     "react-native": "0.68.0",
@@ -33,7 +35,10 @@
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.67.0",
     "react-test-renderer": "17.0.2",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-prettier": "^4.0.0"
   },
   "resolutions": {
     "@types/react": "^17"
