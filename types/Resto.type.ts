@@ -6,6 +6,7 @@ type Resto = {
   photoId: string;
   placeId: string;
   userId: string;
+  rating: string;
   types: string[];
   location: {
     lat: string;

@@ -19,6 +19,8 @@ target 'expertPancake' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
   target 'expertPancakeTests' do
     inherit! :complete
     # Pods for testing
