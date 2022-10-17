@@ -5,7 +5,6 @@ const useRestosQuery = () => {
   const { userId } = useUserStore();
 
   const restosQuery = async () => {
-    console.info('USERID::', userId);
     return firebase
       .firestore()
       .collection('restos')
