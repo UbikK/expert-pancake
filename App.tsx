@@ -9,50 +9,48 @@ import RestoListComponent from './components/RestoList.component';
 import SignInComponent from './components/Signin.component';
 
 const App = () => {
-    const isDarkMode = useColorScheme() === 'dark';
+  const isDarkMode = useColorScheme() === 'dark';
 
-    const backgroundStyle = {
-        backgroundColor: isDarkMode ? Colors.darker : Colors.lighter
-    };
+  const backgroundStyle = {
+    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+  };
 
-    const [user, setUser] = useState<FirebaseAuthTypes.User | null>();
-    const [initializing, setInitializing] = useState(true);
-    const queryClient = new QueryClient();
-    const authHandler = (loggedInUser: FirebaseAuthTypes.User | null) => {
-        setUser(loggedInUser);
-        if (initializing) {
-            setInitializing(false);
-        }
-    };
-
-    useEffect(() => {
-        const subscriber = auth().onAuthStateChanged(authHandler);
-        return subscriber;
-    });
+  const [user, setUser] = useState<FirebaseAuthTypes.User | null>();
+  const [initializing, setInitializing] = useState(true);
+  const queryClient = new QueryClient();
+  const authHandler = (loggedInUser: FirebaseAuthTypes.User | null) => {
+    setUser(loggedInUser);
     if (initializing) {
-        return null;
+      setInitializing(false);
     }
+  };
 
-    return (
-        <QueryClientProvider client={queryClient}>
-            <NativeBaseProvider>
-                <SafeAreaView style={backgroundStyle}>
-                    <StatusBar
-                        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-                    />
-                    <Box
-                        bg="primary.400"
-                        p="12"
-                        alignItems="center"
-                        h={'100%'}
-                        w={'100%'}>
-                        {user ? <RestoListComponent /> : <SignInComponent />}
-                    </Box>
-                    <MenuButton />
-                </SafeAreaView>
-            </NativeBaseProvider>
-        </QueryClientProvider>
-    );
+  useEffect(() => {
+    const subscriber = auth().onAuthStateChanged(authHandler);
+    return subscriber;
+  });
+  if (initializing) {
+    return null;
+  }
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <NativeBaseProvider>
+        <SafeAreaView style={backgroundStyle}>
+          <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+          <Box
+            bg="primary.400"
+            p="12"
+            alignItems="center"
+            h={'100%'}
+            w={'100%'}>
+            {user ? <RestoListComponent /> : <SignInComponent />}
+          </Box>
+          <MenuButton />
+        </SafeAreaView>
+      </NativeBaseProvider>
+    </QueryClientProvider>
+  );
 };
 
 export default App;

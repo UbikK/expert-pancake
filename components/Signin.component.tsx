@@ -9,19 +9,9 @@ const SignInComponent: React.FC = () => {
   const handleEmail = (text: string) => setEmail(text);
   const handlePwd = (text: string) => setPwd(text);
   return (
-    <Box
-      w={'100%'}
-      alignSelf="center"
-      alignItems="center">
-      <FormControl
-        isRequired
-        isInvalid={error !== undefined}>
-        <Input
-          mt="4"
-          p={2}
-          placeholder="Email"
-          onChangeText={handleEmail}
-        />
+    <Box w={'100%'} alignSelf="center" alignItems="center">
+      <FormControl isRequired isInvalid={error !== undefined}>
+        <Input mt="4" p={2} placeholder="Email" onChangeText={handleEmail} />
         <Input
           mt="2"
           p={2}

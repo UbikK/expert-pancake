@@ -1,8 +1,8 @@
+import auth from '@react-native-firebase/auth';
 import {
   GoogleSignin,
-  GoogleSigninButton,
+  GoogleSigninButton
 } from '@react-native-google-signin/google-signin';
-import auth from '@react-native-firebase/auth';
 import { Box, Button, FormControl, Input } from 'native-base';
 import React from 'react';
 GoogleSignin.configure({
@@ -22,23 +22,14 @@ const SignUpComponent: React.FC = () => {
   }
 
   return (
-    <Box
-      bg="primary.400"
-      p="12"
-      rounded="lg">
+    <Box bg="primary.400" p="12" rounded="lg">
       <FormControl isRequired>
         <FormControl.Label>Email</FormControl.Label>
         <Input p={2} />
         <FormControl.Label>Password</FormControl.Label>
-        <Input
-          p={2}
-          type="password"
-        />
+        <Input p={2} type="password" />
         <FormControl.Label>Confirm Password</FormControl.Label>
-        <Input
-          p={2}
-          type="password"
-        />
+        <Input p={2} type="password" />
         <FormControl.Label>First Name</FormControl.Label>
         <Input p={2} />
         <FormControl.Label>Last Name</FormControl.Label>

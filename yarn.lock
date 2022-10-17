@@ -1118,11 +1118,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/config-plugins@npm:^4.1.5":
-  version: 4.1.5
-  resolution: "@expo/config-plugins@npm:4.1.5"
+"@expo/config-plugins@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@expo/config-plugins@npm:5.0.1"
   dependencies:
-    "@expo/config-types": ^45.0.0
+    "@expo/config-types": ^46.0.0
     "@expo/json-file": 8.2.36
     "@expo/plist": 0.0.18
     "@expo/sdk-runtime-versions": ^1.0.0
@@ -1137,14 +1137,14 @@ __metadata:
     slash: ^3.0.0
     xcode: ^3.0.1
     xml2js: 0.4.23
-  checksum: f631217251281b1e25949adbec175ef1362dd08d837ce676ed8350c1401b5764091ba100f76f42adb623e4cdcde5b270be77ad6606f978d419c07fd8c81b701c
+  checksum: bd7139ba8728e7117aaa1ae056190ed69bfde707286d13ef2fe26201381753e6d2066a223eb69547825ab1469c253a75f2e73fad82021b2a7589bb98fd8bf8bb
   languageName: node
   linkType: hard
 
-"@expo/config-types@npm:^45.0.0":
-  version: 45.0.0
-  resolution: "@expo/config-types@npm:45.0.0"
-  checksum: 9b4866540654da61af0985ebfc975b3cb690625acf7742443a7e56263bf134b261e22719720982223407f8957d08a3646178c79f482861218882f0956d804021
+"@expo/config-types@npm:^46.0.0":
+  version: 46.0.2
+  resolution: "@expo/config-types@npm:46.0.2"
+  checksum: ea7b3c64e875dfe65209e5f099b3ef4ddc464f308aff50ba08c26c1dfc3d3c177203190b29b5d7dd334932d74f765690c44829d637d7a71a72078214c69a07ab
   languageName: node
   linkType: hard
 
@@ -1233,7 +1233,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-svg-core@npm:^6.1.1":
+"@fortawesome/fontawesome-svg-core@npm:^6.2.0":
   version: 6.2.0
   resolution: "@fortawesome/fontawesome-svg-core@npm:6.2.0"
   dependencies:
@@ -1242,7 +1242,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/free-solid-svg-icons@npm:^6.1.1":
+"@fortawesome/free-solid-svg-icons@npm:^6.2.0":
   version: 6.2.0
   resolution: "@fortawesome/free-solid-svg-icons@npm:6.2.0"
   dependencies:
@@ -2436,41 +2436,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-firebase/app@npm:^14.7.0":
-  version: 14.12.0
-  resolution: "@react-native-firebase/app@npm:14.12.0"
+"@react-native-firebase/app@npm:^15.7.0":
+  version: 15.7.0
+  resolution: "@react-native-firebase/app@npm:15.7.0"
   dependencies:
-    "@expo/config-plugins": ^4.1.5
+    "@expo/config-plugins": ^5.0.1
     opencollective-postinstall: ^2.0.1
     superstruct: ^0.6.2
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 81307665bec031fa2ec3139369cf87fd5ad6b5231f8306674cd30ad1e7a1e81842b55f679f427067bdf415cc43775cba87141dc641f6c22b29e63eeee3989941
+  checksum: 609f5e0ba061ebe8beae74061efbdb349a244a570d8778433cfca67cc9672f59c98b1080e8be04aad6332616601ed8c09e29c23b9cfbc28b73fb81098e321402
   languageName: node
   linkType: hard
 
-"@react-native-firebase/auth@npm:^14.7.0":
-  version: 14.12.0
-  resolution: "@react-native-firebase/auth@npm:14.12.0"
+"@react-native-firebase/auth@npm:^15.7.0":
+  version: 15.7.0
+  resolution: "@react-native-firebase/auth@npm:15.7.0"
   peerDependencies:
-    "@react-native-firebase/app": 14.12.0
-  checksum: 2ef222a7437dcd7e4b03fd439b8e63cc95324cbd54c78e4669510b7fa65cea474e0b3a305a5ec2952166c13f6c66d2d994dd68eaa37788241c45014b82e8cb1a
+    "@react-native-firebase/app": 15.7.0
+  checksum: 5a1dfb358e152254cbc14a726348252d4e206d5355c815f348934a60a33d3da77cd842e205c65adc4c2888065a8aca04f2e500199d03d5a69718a224e66de40b
   languageName: node
   linkType: hard
 
-"@react-native-firebase/firestore@npm:^14.7.0":
-  version: 14.12.0
-  resolution: "@react-native-firebase/firestore@npm:14.12.0"
+"@react-native-firebase/firestore@npm:^15.7.0":
+  version: 15.7.0
+  resolution: "@react-native-firebase/firestore@npm:15.7.0"
   peerDependencies:
-    "@react-native-firebase/app": 14.12.0
-  checksum: 6447e2028226e8d1f5c40df38388b88c167523ec8987f3e469c7010e1dc76068aae4fa7dee61099cfcad363ff160bfe1459facebc3fdf2c3d0c81cea1a79f36c
+    "@react-native-firebase/app": 15.7.0
+  checksum: e57f73568735493f6f665532325b0191839a226c81e77c564fb69cf1dc214af5247d2c697fa516b3664102ed4d9d97ac8b9e980ea9e25a236f4c72c77ecea41d
   languageName: node
   linkType: hard
 
-"@react-native-google-signin/google-signin@npm:^7.2.2":
-  version: 7.2.2
-  resolution: "@react-native-google-signin/google-signin@npm:7.2.2"
+"@react-native-google-signin/google-signin@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "@react-native-google-signin/google-signin@npm:8.0.1"
   peerDependencies:
     "@expo/config-plugins": ^4.1.0
     react: "*"
@@ -2478,7 +2478,7 @@ __metadata:
   peerDependenciesMeta:
     "@expo/config-plugins":
       optional: true
-  checksum: a652cbaa64655db94271bcac766d84ed712dba1fbf123078a26b954c631f55584d4e9ff01db6111ed427812544bb741b1288d31932fda10c7cdb77630fb33ec4
+  checksum: 4fe53e1142eb8d9120a00555943e34e9c481566e40e2ff5bdff2a1afe4fe459daaa537fd80d00c118501be2499e3c30ac2c1f3ea46e70b5a827a224087b3c0c7
   languageName: node
   linkType: hard
 
@@ -3076,6 +3076,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/react-native@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@tsconfig/react-native@npm:2.0.2"
+  checksum: 336c23587b64a2b12edc9a5469b0a826f506b6c767dc77fa5a401834c2cc2335b9a9c9c0396c14d0c59a3161279a37c4dc7c11f634a2d19f725384fd91582d42
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.7":
   version: 7.1.19
   resolution: "@types/babel__core@npm:7.1.19"
@@ -3219,32 +3226,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:^0.67.3":
-  version: 0.67.16
-  resolution: "@types/react-native@npm:0.67.16"
+"@types/react-native@npm:^0.70.4":
+  version: 0.70.5
+  resolution: "@types/react-native@npm:0.70.5"
   dependencies:
-    "@types/react": ^17
-  checksum: a06b7dc302df4db32c1972c6d94af28fdbfae8f2c65606e1c864cf5b2a329d887f02d133f2393d71c8775b85c9aa06f68a48789ba5b31debb9680e0db0544565
+    "@types/react": "*"
+  checksum: 1a21cd62afcd23cbd2d8e27c3b7601819739bb822e77ce9a3995af14be88e4ae19e467bc4b9c133f6da82648e8a951f07d1e55997d1a7a50260b79c784c24535
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:^17.0.1":
-  version: 17.0.2
-  resolution: "@types/react-test-renderer@npm:17.0.2"
+"@types/react-test-renderer@npm:^18.0.0":
+  version: 18.0.0
+  resolution: "@types/react-test-renderer@npm:18.0.0"
   dependencies:
-    "@types/react": ^17
-  checksum: 0be325798b6b38cc31fbb11f2f1e1a5578cc3b23eddf1ddd1ab58ccf50966e8f779383084d8bc3a7db3108ad815af8fbae5c0f54329a88d52200e01547d85c33
+    "@types/react": "*"
+  checksum: 6afc938a1d7618d88ab8793e251f0bd5981bf3f08c1b600f74df3f8800b92589ea534dc6dcb7c8d683893fcc740bf8d7843a42bf2dae59785cfe88f004bd7b0b
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17":
-  version: 17.0.50
-  resolution: "@types/react@npm:17.0.50"
+"@types/react@npm:*, @types/react@npm:^18.0.21":
+  version: 18.0.21
+  resolution: "@types/react@npm:18.0.21"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: b5629dff7c2f3e9fcba95a19b2b3bfd78d7cacc33ba5fc26413dba653d34afcac3b93ddabe563e8062382688a1eac7db68e93739bb8e712d27637a03aaafbbb8
+  checksum: 36c1a7c9d507e81e2e629c1ad3db51d7b84d8b010c2d5008da411874286c6a5ccc711ae1d4c470efc0bdc77153cc8804a40e927e929e5164c669ca41b84b846d
   languageName: node
   linkType: hard
 
@@ -3314,7 +3321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.17.0":
+"@typescript-eslint/eslint-plugin@npm:^5.37.0":
   version: 5.40.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.40.0"
   dependencies:
@@ -3369,7 +3376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.17.0":
+"@typescript-eslint/parser@npm:^5.37.0":
   version: 5.40.0
   resolution: "@typescript-eslint/parser@npm:5.40.0"
   dependencies:
@@ -4008,13 +4015,6 @@ __metadata:
   version: 7.0.0-beta.0
   resolution: "babel-plugin-syntax-trailing-function-commas@npm:7.0.0-beta.0"
   checksum: e37509156ca945dd9e4b82c66dd74f2d842ad917bd280cb5aa67960942300cd065eeac476d2514bdcdedec071277a358f6d517c31d9f9244d9bbc3619a8ecf8a
-  languageName: node
-  linkType: hard
-
-"babel-plugin-transform-inline-environment-variables@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "babel-plugin-transform-inline-environment-variables@npm:0.4.4"
-  checksum: fa361287411301237fd8ce332aff4f8e8ccb8db30e87a2ddc7224c8bf7cd792eda47aca24dc2e09e70bce4c027bc8cbe22f4999056be37a25d2472945df21ef5
   languageName: node
   linkType: hard
 
@@ -5348,29 +5348,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.5.0":
-  version: 8.5.0
-  resolution: "eslint-config-prettier@npm:8.5.0"
-  peerDependencies:
-    eslint: ">=7.0.0"
-  bin:
-    eslint-config-prettier: bin/cli.js
-  checksum: 0d0f5c32e7a0ad91249467ce71ca92394ccd343178277d318baf32063b79ea90216f4c81d1065d60f96366fdc60f151d4d68ae7811a58bd37228b84c2083f893
-  languageName: node
-  linkType: hard
-
-"eslint-config-typescript@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "eslint-config-typescript@npm:3.0.0"
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ">=1.8.0"
-    "@typescript-eslint/parser": ">=1.8.0"
-    eslint: ">=6.0.0"
-    typescript: "*"
-  checksum: 6f8d1d0159511398b4a07c28bab5101d8753f39180a18ce4ca7b0d28ba06b74d9206d0816ac5eae4203627e6ae53376c221f00caaa9c845690e881edc0f95fae
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-eslint-comments@npm:^3.1.2":
   version: 3.2.0
   resolution: "eslint-plugin-eslint-comments@npm:3.2.0"
@@ -5415,7 +5392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:^4.2.1":
   version: 4.2.1
   resolution: "eslint-plugin-prettier@npm:4.2.1"
   dependencies:
@@ -5738,37 +5715,36 @@ __metadata:
   dependencies:
     "@babel/core": ^7.12.9
     "@babel/runtime": ^7.12.5
-    "@fortawesome/fontawesome-svg-core": ^6.1.1
-    "@fortawesome/free-solid-svg-icons": ^6.1.1
+    "@fortawesome/fontawesome-svg-core": ^6.2.0
+    "@fortawesome/free-solid-svg-icons": ^6.2.0
     "@fortawesome/react-native-fontawesome": ^0.3.0
     "@react-native-community/eslint-config": ^2.0.0
-    "@react-native-firebase/app": ^14.7.0
-    "@react-native-firebase/auth": ^14.7.0
-    "@react-native-firebase/firestore": ^14.7.0
-    "@react-native-google-signin/google-signin": ^7.2.2
+    "@react-native-firebase/app": ^15.7.0
+    "@react-native-firebase/auth": ^15.7.0
+    "@react-native-firebase/firestore": ^15.7.0
+    "@react-native-google-signin/google-signin": ^8.0.1
+    "@tsconfig/react-native": ^2.0.2
     "@types/jest": ^26.0.23
-    "@types/react-native": ^0.67.3
-    "@types/react-test-renderer": ^17.0.1
-    "@typescript-eslint/eslint-plugin": ^5.17.0
-    "@typescript-eslint/parser": ^5.17.0
+    "@types/react": ^18.0.21
+    "@types/react-native": ^0.70.4
+    "@types/react-test-renderer": ^18.0.0
+    "@typescript-eslint/eslint-plugin": ^5.37.0
+    "@typescript-eslint/parser": ^5.37.0
     babel-jest: ^26.6.3
-    babel-plugin-transform-inline-environment-variables: ^0.4.4
     eslint: ^7.32.0
-    eslint-config-prettier: ^8.5.0
-    eslint-config-typescript: ^3.0.0
-    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-prettier: ^4.2.1
     jest: ^26.6.3
-    metro-react-native-babel-preset: ^0.72.3
-    native-base: ^3.3.10
+    metro-react-native-babel-preset: 0.72.3
+    native-base: ^3.4.18
     react: 18.1.0
     react-native: 0.70.3
-    react-native-config: ^1.4.6
-    react-native-safe-area-context: ^4.2.4
-    react-native-svg: ^12.4.0
+    react-native-config: ^1.4.11
+    react-native-safe-area-context: ^4.4.1
+    react-native-svg: ^13.4.0
     react-native-vector-icons: ^9.2.0
-    react-query: ^3.39.1
+    react-query: ^3.39.2
     react-test-renderer: 18.1.0
-    typescript: ^4.4.4
+    typescript: ^4.8.3
   languageName: unknown
   linkType: soft
 
@@ -8344,7 +8320,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.72.3, metro-react-native-babel-preset@npm:^0.72.3":
+"metro-react-native-babel-preset@npm:0.72.3":
   version: 0.72.3
   resolution: "metro-react-native-babel-preset@npm:0.72.3"
   dependencies:
@@ -8818,7 +8794,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"native-base@npm:^3.3.10":
+"native-base@npm:^3.4.18":
   version: 3.4.18
   resolution: "native-base@npm:3.4.18"
   dependencies:
@@ -9741,7 +9717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-config@npm:^1.4.6":
+"react-native-config@npm:^1.4.11":
   version: 1.4.11
   resolution: "react-native-config@npm:1.4.11"
   peerDependencies:
@@ -9781,7 +9757,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^4.2.4":
+"react-native-safe-area-context@npm:^4.4.1":
   version: 4.4.1
   resolution: "react-native-safe-area-context@npm:4.4.1"
   peerDependencies:
@@ -9791,16 +9767,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-svg@npm:^12.4.0":
-  version: 12.4.4
-  resolution: "react-native-svg@npm:12.4.4"
+"react-native-svg@npm:^13.4.0":
+  version: 13.4.0
+  resolution: "react-native-svg@npm:13.4.0"
   dependencies:
     css-select: ^5.1.0
     css-tree: ^1.1.3
   peerDependencies:
     react: "*"
-    react-native: ">=0.50.0"
-  checksum: a98d9180dc3434e9993b5028e351c2aa5004fa3b1f5131e5f263fd43a95a43d330f0d435bc7ea498784bdbfcf6ece0e777cdd2bb568cd1337c30623a5aa02fd7
+    react-native: "*"
+  checksum: e630c057d6a0947c4d729538f643585a1fd9380975c1cf9adffad7647822b35219a9e1e60407f422b2b70592ed7f7e8766fab15df74f9cfce0b1c8a1c3544676
   languageName: node
   linkType: hard
 
@@ -9861,7 +9837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-query@npm:^3.39.1":
+"react-query@npm:^3.39.2":
   version: 3.39.2
   resolution: "react-query@npm:3.39.2"
   dependencies:
@@ -11325,7 +11301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.4.4":
+"typescript@npm:^4.8.3":
   version: 4.8.4
   resolution: "typescript@npm:4.8.4"
   bin:
@@ -11335,7 +11311,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
   version: 4.8.4
   resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"
   bin:
