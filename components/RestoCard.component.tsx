@@ -1,16 +1,16 @@
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import {
-    AspectRatio,
-    Badge,
-    Box,
-    Center,
-    FlatList,
-    Heading,
-    HStack,
-    Image,
-    Stack,
-    Text
+  AspectRatio,
+  Badge,
+  Box,
+  Center,
+  FlatList,
+  Heading,
+  HStack,
+  Image,
+  Stack,
+  Text
 } from 'native-base';
 import React from 'react';
 import Config from 'react-native-config';
@@ -86,7 +86,7 @@ const RestoCardComponent: React.FC<{
             <FlatList
               horizontal
               data={props.resto.types}
-              renderItem={({item}) => <Badge>{item}</Badge>}
+              renderItem={({ item }) => <Badge>{item}</Badge>}
             />
           </HStack>
 
@@ -100,7 +100,7 @@ const RestoCardComponent: React.FC<{
                 fontWeight="400">
                 {props.resto.rating}
               </Text>
-              <FontAwesomeIcon icon={faStar} style={{color: 'gold'}} />
+              <FontAwesomeIcon icon={faStar} style={{ color: 'gold' }} />
             </HStack>
           </HStack>
         </Stack>

@@ -10,9 +10,9 @@ import RestoCardComponent from './RestoCard.component';
 
 const RestoListComponent: React.FC = () => {
   const [restos, setRestos] = useState<Resto[]>([]);
-  const {userId} = useUserStore();
-  const {restosQuery} = useRestosQuery();
-  const {isLoading} = useQuery(['restos', userId], restosQuery, {
+  const { userId } = useUserStore();
+  const { restosQuery } = useRestosQuery();
+  const { isLoading } = useQuery(['restos', userId], restosQuery, {
     onSuccess: data => setRestos(data.docs.map(r => converter<Resto>(r))),
   });
 
@@ -41,8 +41,8 @@ const RestoListComponent: React.FC = () => {
       ) : (
         <FlatList
           data={restos}
-          renderItem={({item}: ListRenderItemInfo<Resto>) => (
-            <View style={{marginTop: 8, marginBottom: 8}}>
+          renderItem={({ item }: ListRenderItemInfo<Resto>) => (
+            <View style={{ marginTop: 8, marginBottom: 8 }}>
               <RestoCardComponent resto={item} key={item.id} />
             </View>
           )}

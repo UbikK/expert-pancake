@@ -6,6 +6,7 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import MenuButton from './components/MenuButton.component';
 import RestoListComponent from './components/RestoList.component';
+import SearchComponent from './components/Search';
 import SignInComponent from './components/Signin.component';
 
 const App = () => {
@@ -44,7 +45,14 @@ const App = () => {
             alignItems="center"
             h={'100%'}
             w={'100%'}>
-            {user ? <RestoListComponent /> : <SignInComponent />}
+            {user ? (
+              <>
+                <SearchComponent />
+                <RestoListComponent />
+              </>
+            ) : (
+              <SignInComponent />
+            )}
           </Box>
           <MenuButton />
         </SafeAreaView>

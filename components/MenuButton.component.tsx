@@ -1,8 +1,8 @@
 import {
-    faBars,
-    faPerson,
-    faPlus,
-    faTimes
+  faBars,
+  faPerson,
+  faPlus,
+  faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { View } from 'native-base';

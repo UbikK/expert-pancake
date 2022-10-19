@@ -5739,6 +5739,8 @@ __metadata:
     react: 18.1.0
     react-native: 0.70.3
     react-native-config: ^1.4.11
+    react-native-fetch-api: ^3.0.0
+    react-native-polyfill-globals: ^3.1.0
     react-native-safe-area-context: ^4.4.1
     react-native-svg: ^13.4.0
     react-native-vector-icons: ^9.2.0
@@ -9285,6 +9287,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-defer@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "p-defer@npm:3.0.0"
+  checksum: ac3b0976a1c76b67cca1a34e00f7299b0cc230891f820749686aa84f8947326bbe0f8e3b7d9ca511578ee06f0c1a6e0ff68c8e9c325eac455f09d99f91697161
+  languageName: node
+  linkType: hard
+
 "p-each-series@npm:^2.1.0":
   version: 2.2.0
   resolution: "p-each-series@npm:2.2.0"
@@ -9729,6 +9738,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-fetch-api@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "react-native-fetch-api@npm:3.0.0"
+  dependencies:
+    p-defer: ^3.0.0
+  checksum: f10f435060551c470711ba0b3663e3d49c7701aae84ea645d66992d756b13e923fb5762b324d3583d85c1c0def4138b9cc3f686bab1c1bc10d3ad82dc7175c99
+  languageName: node
+  linkType: hard
+
 "react-native-gradle-plugin@npm:^0.70.3":
   version: 0.70.3
   resolution: "react-native-gradle-plugin@npm:0.70.3"
@@ -9754,6 +9772,20 @@ __metadata:
   peerDependencies:
     react-native: ">=0.48.4"
   checksum: 5eec2aedb886213dfed4c8428a443b565dce80ba9fcf5897171e4c8829d4dd64c5011ac004d93f29adfc83ad6f88c2838d1a5b45255dc4a49bd1c0a169245800
+  languageName: node
+  linkType: hard
+
+"react-native-polyfill-globals@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "react-native-polyfill-globals@npm:3.1.0"
+  peerDependencies:
+    base-64: "*"
+    react-native-fetch-api: "*"
+    react-native-get-random-values: "*"
+    react-native-url-polyfill: "*"
+    text-encoding: "*"
+    web-streams-polyfill: "*"
+  checksum: ff968f257a10c420c96fb1b5e838bf665f5312b9709ff23001fd57480a05991df6d0f8751a2f46250174f858dcc3ebfdaf5548c9f37b729d472d3152b99e3356
   languageName: node
   linkType: hard
 
